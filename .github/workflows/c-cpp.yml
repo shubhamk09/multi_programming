@@ -16,4 +16,4 @@ jobs:
     - name: make
       run: make
     - name: run
-      run: ./a.out
+      run: ./all.out
