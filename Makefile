@@ -4,10 +4,10 @@
 PROJECT_NAME=all.exe
 SRC=test.c sum.c sq.c
 $(PROJECT_NAME):$(SRC)
-	gcc $(SRC) -o all.out
+	gcc $(SRC) -o $(PROJECT_NAME).out
 
 run:$(PROJECT_NAME)
-	$(PROJECT_NAME)
+	./$(PROJECT_NAME).out
 
 clean: 
 	del /q *.exe
